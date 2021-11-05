@@ -27,5 +27,7 @@ This repository contains scripts for the population genomics and phylogenomics a
 - pcangsd.R - Eigenvector decomposition of covariance matrix.
 
 ## Isolation-by-distance 
+- [alfreq files](https://github.com/evcurran/Angusta-Pop-Genomics/tree/main/alfreq) - Allele frequencies based on RAD-seq sampled populations, calculated following the protocol [here](https://github.com/visoca/popgenomworkshop-hmm).
+- [ibd_fst.r](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/ibd_fst.r) - Calculate pairwise Hudson's Fst
 - angusta_ibd.r - R script with permutation tests to test the relationship between pairwise geographic and genetic distances
 - pairwise_fst_geo_ibd.csv - Pairwise Fst and geographic distances between populations 
