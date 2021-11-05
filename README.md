@@ -6,13 +6,25 @@ This repository contains scripts for the population genomics and phylogenomics a
 - pca_morph_data.csv - input data for R script containing anatomical measurements and sample data
 
 ## Clean and align WGS reads
-- wgs_read_cleaning.sh - Quality assessment of fastq files, trimming of adaptors and low quality bases.
+- wgs_read_cleaning.sh - Quality assessment of fastq files, trimming of adaptors and low quality bases from ends of reads.
 - align_to_ref.sh - Align cleaned reads to reference sequence (used for WGS and RAD data).
 - post_process_sams.py - process sam files: convert to bam, sort, keep only uniquely aligned reads in proper pairs.
 
 ## Phylogenetic tree
 - angusta_consensus_alignment.sh - Produce a phylip file from bam files, for input into RAxML.
 - raxml_nuc_tree.sh - Build a phylogenetic tree from nuclear or chloroplast alignments.
+
+## Processing RAD-seq data
+- trimmomatic.sh - Remove adaptor and other Illumina-specific sequences and bases with a low quality score from ends of reads.
+- process_radtags_clean.sh - Demultiplex cleaned fastq files using barcodes.
+
+## Population structure
+- gen_beagle.sh - Generate BEAGLE genotype likelihood file using ANGSD.
+- angusta.beagle.gz - BEAGLE genotype likelihood file.
+- ngsadmix.py - Generate shell scripts to run NGSadmix.
+- PCAngsd.sh - Carry out PCA on genotype likelihoods using PCAngsd.
+- angusta.cov - Covariance matrix output by PCAngsd.
+- pcangsd.R - Eigenvector decomposition of covariance matrix.
 
 ## Isolation-by-distance 
 - angusta_ibd.r - R script with permutation tests to test the relationship between pairwise geographic and genetic distances
