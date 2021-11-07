@@ -7,7 +7,7 @@ This repository contains scripts for the population genomics and phylogenomics a
 
 ## Clean and align WGS reads
 - [wgs_read_cleaning.sh](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/wgs_read_cleaning.sh) - Quality assessment of fastq files, trimming of adaptors and low quality bases from ends of reads.
-- [align_to_ref.sh](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/align_to_ref.sh - Align cleaned reads to reference sequence (used for WGS and RAD data)).
+- [align_to_ref.sh](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/align_to_ref.sh) - Align cleaned reads to reference sequence (used for WGS and RAD data).
 - [post_process_sams.py](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/post_process_sams.py) - process sam files: convert to bam, sort, keep only uniquely aligned reads in proper pairs.
 
 ## Phylogenetic tree
