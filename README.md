@@ -1,5 +1,5 @@
 # Angusta-Pop-Genomics
-This repository contains scripts for the population genomics and phylogenomics analyses performed in Curran et al. (2021 - preprint), exploring gene flow dynamics and dispersal history in the grass _Alloteropsis angusta_.
+This repository contains scripts for the population genomics and phylogenomics analyses performed in [Curran et al. (2021)](https://doi.org/10.1101/2021.04.16.440116), exploring gene flow dynamics and dispersal history in the grass _Alloteropsis angusta_.
 
 ## PCA of anatomical variation
 - [morpho_pca.R](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/morpho_pca.R) - R script for PCA of anatomical measurements
