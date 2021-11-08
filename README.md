@@ -31,3 +31,10 @@ This repository contains scripts for the population genomics and phylogenomics a
 - [ibd_fst.r](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/ibd_fst.r) - Calculate pairwise Hudson's Fst
 - [angusta_ibd.r](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/angusta_ibd.r) - R script with permutation tests to test the relationship between pairwise geographic and genetic distances
 - [pairwise_fst_geo_ibd.csv](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/pairwise_fst_geo_ibd.csv) - Pairwise Fst and geographic distances between populations 
+
+## ABBA-BABA
+- [abbababa_angsd.sh](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/abbababa_angsd.sh) - Carry out ABBA-BABA tests in ANGSD using bam files as input.
+- [bamlist.txt](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/bamlist.txt) - bam files used in this test.
+- [abbababa_process_results.R](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/abbababa_process_results.R) - Process and plot ABBA-BABA output
+- [angusta_within_abbababa_plot.csv](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/angusta_within_abbababa_plot.csv) - Results of ABBA-BABA tests within A. angusta.
+- [ang_sem_bw_abbababa_plot.csv](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/ang_sem_bw_abbababa_plot.csv) - Results of ABBA-BABA tests between A. angusta and A. semialata.
