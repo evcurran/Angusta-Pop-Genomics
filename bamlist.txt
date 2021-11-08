@@ -18,3 +18,4 @@ ZAM-19-33-01_cleaned_1.fastq.gz_nuclear.sorted.bam
 ZAM19-50-10_nuclear.sorted.bam
 ZAM-20-74-15_cleaned_1.fastq.gz_nuclear.sorted.bam
 ZAM-20-75-04_cleaned_1.fastq.gz_nuclear.sorted.bam
+A.cim_nuclear.sorted.bam
