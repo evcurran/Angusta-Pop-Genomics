@@ -36,7 +36,7 @@ This repository contains scripts for the population genomics and phylogenomics a
 - [abbababa_angsd.sh](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/abbababa_angsd.sh) - Carry out ABBA-BABA tests in ANGSD using bam files as input.
 - [bamlist.txt](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/bamlist.txt) - bam files used in this test.
 - [abbababa_process_results.R](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/abbababa_process_results.R) - Process and plot ABBA-BABA output
-- [angusta_within_abbababa_plot.csv](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/angusta_within_abbababa_plot.csv) - Results of ABBA-BABA tests within A. angusta.
+- [angusta_within_abbababa_plot.csv](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/angusta_within_abbababa_plot.csv) - Results of ABBA-BABA tests within _A. angusta_.
 - [ang_sem_bw_abbababa_plot.csv](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/ang_sem_bw_abbababa_plot.csv) - Results of ABBA-BABA tests between _A. angusta_ and _A. semialata_.
 
 ## Calculate inbreeding coefficients
