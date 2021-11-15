@@ -1,5 +1,5 @@
 # Angusta-Pop-Genomics
-This repository contains scripts for the population genomics and phylogenomics analyses performed in [Curran et al. (2021)](https://doi.org/10.1101/2021.04.16.440116), exploring gene flow dynamics and dispersal history in the grass _Alloteropsis angusta_.
+This repository contains scripts for the population genomics and phylogenomics analyses performed in the preprint [Curran et al. (2021)](https://doi.org/10.1101/2021.04.16.440116), exploring gene flow dynamics and dispersal history in the grass _Alloteropsis angusta_.
 
 ## PCA of anatomical variation
 - [morpho_pca.R](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/morpho_pca.R) - R script for PCA of anatomical measurements
@@ -37,4 +37,7 @@ This repository contains scripts for the population genomics and phylogenomics a
 - [bamlist.txt](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/bamlist.txt) - bam files used in this test.
 - [abbababa_process_results.R](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/abbababa_process_results.R) - Process and plot ABBA-BABA output
 - [angusta_within_abbababa_plot.csv](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/angusta_within_abbababa_plot.csv) - Results of ABBA-BABA tests within A. angusta.
-- [ang_sem_bw_abbababa_plot.csv](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/ang_sem_bw_abbababa_plot.csv) - Results of ABBA-BABA tests between A. angusta and A. semialata.
+- [ang_sem_bw_abbababa_plot.csv](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/ang_sem_bw_abbababa_plot.csv) - Results of ABBA-BABA tests between _A. angusta_ and _A. semialata_.
+
+## Calculate inbreeding coefficients
+- [ANGSD-Fis.sh](https://github.com/evcurran/Angusta-Pop-Genomics/blob/main/ANGSD-Fis.sh) - Calculate inbreeding coeffiencents using ANGSD on populations sampled with RAD-seq.
